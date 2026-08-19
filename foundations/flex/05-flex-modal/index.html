@@ -8,13 +8,36 @@
     <title>Modal</title>
   </head>
   <body>
+
+    <!--A parent container with 2 flex items-->
     <div class="modal">
-      <div class="icon">!</div>
-      <div class="header">Are you sure you want to do that?</div>
-      <button class="close-button">✖</button>
-      <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi id soluta, numquam minima rerum doloremque eveniet aspernatur beatae commodi. Cupiditate recusandae ad repellendus quidem consectetur sequi amet aspernatur cumque!</div>
-      <button class="continue">Continue</button>
-      <button class="cancel">Cancel</button>
+
+      <!--Icon-->
+      <div class="icon-container">
+        <div class="icon">!</div>
+      </div>
+      
+      <!-- 2nd flex item: Content Container with 3 flex items -->
+      <div class="content-container">
+        <!--The title and X icon-->
+        <div class="title">
+          <div class="header">Are you sure you want to do that?</div>
+          <button class="close-button">✖</button>
+        </div>
+      
+        <!--Text Content-->
+        <div class="text-content">
+          <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi id soluta, numquam minima rerum doloremque eveniet aspernatur beatae commodi. Cupiditate recusandae ad repellendus quidem consectetur sequi amet aspernatur cumque!</div>
+        </div>
+      
+        <!--Buttons-->
+        <div class="buttons">
+          <button class="continue">Continue</button>
+          <button class="cancel">Cancel</button>
+        </div>        
+      </div>
+
+
     </div>
   </body>
 </html>
